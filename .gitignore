@@ -1,0 +1,26 @@
+# PHP
+vendor/
+.phpunit.result.cache
+
+# Environment
+.env
+.env.*.local
+
+# Docker
+docker/database/data/
+docker/database/logs/
+docker/database/logs/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+logs/
