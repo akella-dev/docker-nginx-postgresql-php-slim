@@ -37,6 +37,6 @@ services:
       POSTGRES_USER: "${DATABASE_USER}"
       POSTGRES_PASSWORD: "${DATABASE_PASS}"
     volumes:
-      - "./docker/database/data:/var/lib/postgresql/data"
+      - "./docker/db/data:/var/lib/postgresql/data"
     ports:
       - "${DATABASE_PORT}:5432"
